@@ -99,12 +99,12 @@
 * (P?) time and expenses sending out stickers: 400 EUR
 * (P?) Stickers incl. stamps (estimate) 170 EUR
 * (M) Renewal indiehosters.net/.com, Aug 2015, 21.55 EUR
-* (P) Register indie.host (when?), (70 EUR?)
+* (P) Register indie.host April 2015 78.53 EUR
 
 
 ### Reserved: 1228.47 EUR
 
-* (P?) hosting perks that were fulfilled by Pierre: X * 40 = X EUR
+* (P) hosting perks that were fulfilled by Pierre: 25 * 40 = 1000 EUR
 * Rest of those 1298.47 euros: general reserve
 
 # End status: 288.95 + 939.52 = 1228.47
