@@ -1,0 +1,14 @@
+Let's start with an introduction of you: Could you tell us who you are, what you do in the ownCloud community and company?
+
+When and how did you start working on ownCloud?
+
+What's the main problem that ownCloud solves, from your personal point of view?
+
+What are the short-term and long-term goals of ownCloud?
+
+How does ownCloud help to re-dezentralize the Internet?
+
+What are your plans for integration and synchronization on mobile phones, are you working on that?
+
+What's your favorite ownCloud plugin?
+
