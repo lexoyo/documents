@@ -12,3 +12,4 @@ What are your plans for integration and synchronization on mobile phones, are yo
 
 What's your favorite ownCloud plugin?
 
+How can users help and contribute to ownCloud?
