@@ -8,8 +8,19 @@ What are the short-term and long-term goals of ownCloud?
 
 How does ownCloud help to re-dezentralize the Internet?
 
+WordPress powers 25% of the web, oenCloud hosts how many Petas?
+
 What are your plans for integration and synchronization on mobile phones, are you working on that?
 
-What's your favorite ownCloud plugin?
+What's your favorite ownCloud plugin? Your favourite feature?
 
-How can users help and contribute to ownCloud?
+You work on the mail application, can you tell us a bit more about this project?
+
+Do you use the webmail as your main email client?
+
+How can (non-tech) users help and contribute to ownCloud?
+
+The web is about apps nowadays.
+When you download the dropbox app on your smartphone or desktop, there is a register button, how could we develop one for ownCloud app?
+
+What was the question you'd have wanted us to ask you?
