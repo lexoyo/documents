@@ -1,26 +1,38 @@
-Let's start with an introduction of you: Could you tell us who you are, what you do in the ownCloud community and company?
+(Let's start with an introduction of you: Could you tell us who you are, what you do in the ownCloud community and company?)
+Kannst du dich kurz vorstellen, wer du bist und und was du bei ownCloud in der Community und Firma machst?
 
-When and how did you start working on ownCloud?
+(When and how did you start working on ownCloud?)
+Wie hast du bei oder mit ownCloud angefangen
 
-What's the main problem that ownCloud solves, from your personal point of view?
+(What's the main problem that ownCloud solves, from your personal point of view?)
+Was ist das Hauptproblem, dass ownCloud löst, aus deiner Perspektive?
 
-What are the short-term and long-term goals of ownCloud?
+(What are the short-term and long-term goals of ownCloud?)
+Was sind die Nah- und Fernziele von ownCloud?
 
-How does ownCloud help to re-dezentralize the Internet?
+(How does ownCloud help to re-dezentralize the Internet?)
+Wie kann ownCloud bei der Re-Dezentralisierung des Internets helfen?
 
-WordPress powers 25% of the web, oenCloud hosts how many Petas?
+(WordPress powers 25% of the web, oenCloud hosts how many Petas?)
+Das Web besteht zu 25 aus WordPress, wieviele Petabyted liegen auf ownClouds?
 
-What are your plans for integration and synchronization on mobile phones, are you working on that?
+(What are your plans for integration and synchronization on mobile phones, are you working on that?)
+Gibt es irgendwelche Pläne für eine weitergehende Integration auf Mobilgeräten?
 
-What's your favorite ownCloud plugin? Your favourite feature?
+(What's your favorite ownCloud plugin? Your favourite feature?)
+Was ist dein Lieblings-ownCloud-Plugin oder -Feature, und warum?
 
-You work on the mail application, can you tell us a bit more about this project?
+(You work on the mail application, can you tell us a bit more about this project?)
+Ihr arbeitet eine einer E-Mail-Anwendung, könnte ihr uns etwas mehr über das Projekte erzählen?
 
-Do you use the webmail as your main email client?
+(Do you use the webmail as your main email client?)
+Verwendest du ownCloud-Webmail als deinen Standard-E-Mail-Client?
 
-How can (non-tech) users help and contribute to ownCloud?
+(How can (non-tech) users help and contribute to ownCloud?)
+Wie können technisch nicht so versierte Anwender bei ownCloud beitragen?
 
-The web is about apps nowadays.
-When you download the dropbox app on your smartphone or desktop, there is a register button, how could we develop one for ownCloud app?
+(The web is about apps nowadays. When you download the dropbox app on your smartphone or desktop, there is a register button, how could we develop one for ownCloud app?)
+Apps sind heutzutag überall im Web. Wenn man die Dropbox-App auf das Handy oder den Computer herunterlädt, dann gibt es da einen "Registrieren"-Button. Wie könnte so etwas für ownCloud ausschauen?
 
-What was the question you'd have wanted us to ask you?
+(What was the question you'd have wanted us to ask you?)
+Welche Frage hättet ihr gewollt, dass wir sie euch fragen?
