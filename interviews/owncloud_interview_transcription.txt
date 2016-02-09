@@ -22,4 +22,78 @@ Frank: Ja super, das ist eigentlich auch so ein bisschen unsere Mission. Also we
 
 Peter: Ja, das hatte ich mal ausprobiert, mit Dateien geht das ganz gut, aber das geht auch mit Kalender, Kontakten und solchen Sachen dann?
 
-Frank: Also Dateien ist jetzt der erste Schritt, aber wir wollen das auf andere Bereiche auch ausdehnen. 
+Frank: Also Dateien ist jetzt der erste Schritt, aber wir wollen das auf andere Bereiche auch ausdehnen. Also, Jan hat schon angesprochen, eine Applikation die immer populärer wird ist diese ganze Thema Chat und WebRTC, Chat basierend auf XMPP, was ja für sich auch schon dezentral ist. Dann gibt es eine ownCloud-Mail-App, um seine Mails zu verwalten. Mail ist natürlich an sich auch schon dezentral. Also wir versuchen da schon noch mehr zu machen. Kalender und Kontakte vielleicht auch in der Zukunft.
+
+Jan: Und was uns auch wichtig ist dabei, ist eben, dass er (der User) es dann auch natürlich in ownCloud verwendet, zuerst einmal, und dann aber auch andere Sachen, z.B. habt ihr (zeigt auf Frank) gestern mit [...] geredet, und die Leute von cozy cloud waren dann auch da. Und so entwickelt sich das alles, und das ist ja eigentlich das Coole, das dann nicht nur, selbst bei Federation, das dann nicht nur dieses eine System, wie z.B. ownCloud, miteinander kommunizieren kann, sondern auch komplett andere Leute, die andere Systeme benutzen. Was ja dann eigentlich die Power so wirklich von Open Source ist, weil, ja, andere Leute benutzen vielleicht dann andere Systeme, weil sie eben sagen, hey, das hier macht das anders, das hier macht das anders, aber trotzdem können sie dann miteinander kommunizieren.
+
+Peter: Gibt es da zur Zeit aktuelle Ansätze, zum Beispiel mit cozy cloud?
+
+Frank: Also das Federation-Feature, dass man z.B., dass du und ich einen gesharten Ordner haben können, obwohl wir nicht auf demselben Server sind, das haben wir ja in ownCloud entwickelt, in der neunten Version ist das auch gut funktionsfähig. Aber wir haben auch die entsprechende API ist so gemacht, dass sie von Anderen [... 11:00] werden kann, haben das jetzt im Sommer dokumentiert und versuchen das jetzt sozusagen als Standard zu etablieren. Und jetzt gerade erst gestern haben wir hier ein Treffen gehabt mit den Leuten von [... 11:12], cozy cloud, und die möchten das auch implementieren. Und das ist glaube ich ein netter Schritt, um dann diese dezentrale, federated, interoperability zu haben.  Weil, ja, es soll ja nicht von einem Player dominiert werden, sonst hat man ja wieder einen Fixpunkt wie Google.
+
+Peter: Das Web besteht jetzt zu 25% aus Wordpress, wie viele Petabytes gibt es insgesamt auf ownClouds?
+
+Frank: Das ist nicht zu messen. Man kann jetzt immer ein bisschen schauen, wie viele Downloads haben wir denn so, entwickeln sich Trends, und wir haben neulich wieder ein bisschen gerechnet und sind zu dem Schluss gekommen, dass wir wohl so um die 8 Millionen User haben. Aber das ist geschätzt.
+
+Peter: Ist ja dezentral...
+
+Jan: Man weiß nie, wie viele Leute auf einer Installation sind.
+
+Frank: Wir haben halt keine zentrale User-Datenbank wie Andere.
+
+Peter: Mit ownCloud ist es ja z.B. auch möglich Daten mit dem Mobilfunk zu synchronisieren. Arbeitet ihr auch an solchen Lösungen speziell für Mobilgeräte, das zu integrieren und so?
+
+Frank: Ja klar, also für Dateien, wie Jan gesagt hat, das ist der Kern, da gibt es Apps von ownCloud selbst, für Android und iOS, das zu integrieren. Ansonten geht auch unser Web-Interface, das auch gut funktioniert, in der neuesten Version, für Mobile. Wir stützen uns ja auch auf offene Protokolle, soweit es geht, also WebDAV, das funktioniert natürlich auch mit verschiedenen Geräten. Ich benutze z.B. eine kleine Applikation auf meinem Telefon für Notizen, die Dateien mit WebDAV synchronisieren kann. Das geht dann eben auf die ownCloud.
+
+Jan: Und genau für Kalender und Kontakte benutzen wir eben CalDAV und CardDAV. Bei Android braucht man da eine extra App zu, DAVdroid, oder es gibt auch ein paar andere. Aber das ist z.B. Open Source. Von iOS wird es nativ unterstützt, CalDAV und CardDAV, da kann man das einfach hinzufügen. Und dann gibt es beispielsweise für ownCloud-Notes-App, oder für die News-App, gibt's auch mobile Applikationen, die dann quasi ein Ersatz für Google Reader sind. Die dann auch ja offline das Ganze cachen.
+
+Peter: Aber von euch kommt dann keine Anwendungen für z.B. Kalender oder Adressen, z.B. für Android?
+
+Jan: Nein, weil es benutzt halt die nativen Anwendungen. Es synchronisiert die Daten.
+
+Frank: Ich glaube, wenn wir uns jetzt noch vornehmen würden, eine eigene Kalender-Applikation zu schreiben, dann würden wir uns wahrscheinlich übernehmen. Wir unterstützen die offenen Protokolle und es gibt dann entsprechende Kalender, die das benutzen. Und dasselbe gilt z.B. auch für Musik. Auch eine sehr populäre Applikation ist die Musik-App, da kann man, wenn man seine Musiksammlung hochsynchronisiert hat auf seine ownCloud, dann tut die Musik-App die Musikstücke erkennen, ID3-Tags auswerten, Covers runterladen. Und hat dann eine API, das ist die Apache-API, wie man dann auf die Musik von außen zugreifen kann. Und dann gibt es z.B. Clients auf dem Mobiltelefon, die Apache-kompatibel sind, die kann man dann mit seinem Server connecten, dann kann man die Musik von unterwegs streamen. Das ist auch so ein Beispiel, wo wir jetzt nicht zwangsweise den Player selber entwickeln müssen. Aber wenn man halt offene Protokolle verwendet, dann tut's jemand.
+
+Peter: Eine andere Sache, die wir machen, wir haben die Idee Registrier-Buttons zu machen für Free Software web applications, aber dezentral eben. Bei Dropbox z.B. da geht man auf die Seite, klickt auf "Registrieren" und trägt seine E-Mail-Adresse und Passwort ein, und hat den Account und benutzt das. Wie könnte denn so etwas aussehen für ownCloud z.B., oder auch für andere Free Software Webanwendungen? Habt ihr da irgendwelche Pläne oder Ideen?
+
+Jan: Bei ownCloud haben wir eine Provider-Page, wo wir ownCloud-Provider listen, wo man sich eben anmelden kann. Da gab's jetzt auch die Idee, man könnte das reduzieren auf eine gewisse Art und Weise, und die Auswahl, es geht ja nur um die Auswahl, ein bisschen einfacher zu machen. Oder mich fragen oft Leute, welchen Provider empfiehlst du denn? Weil, natürlich ist es schwierig, dadurch dass es jetzt nicht ein owncloud.com zum Anmelden gibt quasi, das macht es schwierig. Was Diasora, glaube ich, immer noch macht, oder was sie mal gemacht haben, es gibt einen Registrieren-Button und dann wird man zu einer zufälligen Instanz gesendet. [... 16:07] Ist jetzt auch ein bisschen, ich weiß nicht...
+
+Peter: Für die eigenen Daten ist das bisschen komisch...
+
+Jan: Genau.
+
+Frank: Genau.
+
+Jan: Ich empfehle dann lieber persönlich Leuten was. Oder je nach Person: ist es eine Person, die einen eigenen Server hosten kann, oder die einen Provider haben möchte. Oder villeicht sogar es auf dem Raspberry Pi es installieren. Da sind derzeit viele Ansätze. (Von unsere Seite kommen dann auch...) Es gibt so viele Metriken nach denen man die Provider einordnen kann. Das ist einfach schwierig, das zu kategorisieren. Da wärs auch interessant mit euch zu reden...
+
+Peter: Naja, wir haben ja die Idee des "migration network", also dass man
+
+Frank: Das man frei migrieren kann...
+
+Peter: Genau, dass der Nutzer sich dann registrieren kann für ownCloud, dann zahlt er für ein Jahr, aber er kann jederzeit den Hoster wechseln, per Knopfdruck am Besten. Oder auch auf einen Homeserver, wenn er jetzt einen Raspberry Pi installiert hat, dass er per Klick die Daten wieder einfach aus dem Netz auf seinen Raspberry legen kann.
+
+Jan: Genau, dass ist bei ownCloud dann auch möglich, einfach dadurch, dass wir offenen Formate und Protokolle benutzen, man kann Exportieren, Importieren. Und da kann man quasi Andocken.
+
+Peter: Und was ist euer Lieblings-Plugin oder -Feature von ownCloud? Was benutzt ihr am Meisten?
+
+Jan: Also ich benutze natürlich die Mail-App sehr viel, weil ich arbeite da einfach selber dran. Das ist halt so ein IMAP-Client, einfach. Aber ich finde das einfach interessant, weil immer gesagt wird, ach Mail ist so kompliziert, es gibt aber wenig ordentliche Mail-Apps und so. Ich bin immer mit den Open-Source-Lösungen ein bisschen enttäuscht, muss ich sagen. Und deswegen finde ich das ganz interessant, an was Besserem zu arbeiten. Auch weil es eigentlich ein sehr gutes Beispiel ist der Integration mit anderen Apps. Zum Beispiel, wenn du eine Mail schreibst, da hast du dann als Empfänger, kannst du was eingeben, dann wirds von deinen "Contacts" automcompleted. Du kannst Dateien als attachments hochladen aus "Files", oder attachments von anderen Mails einfach im Netz speichern. Und es ist eben sehr integriert. Avatare von Kontakten werden geladen, und deine eigenen Daten. Und das benutze ich sehr oft.
+
+Frank: Ja, jetzt hatte ich lange Zeit drüber nachzudenken, aber... Also du hast jetzt einmal gefragt, was ich am meisten benutze, aber auch, was mir das liebste Feature ist. Am meisten benutze ich einfach unspannende Dinge, so wie einen Ordner hochzusynchronisieren, dann einen Public-Sharing-Link generieren, per Mail jemand senden und der kann das dann anschauen. Was halt z.B. auch für Fotos wunderbar geht. Dann kann man von der Mobiltelefon-Applikation Fotos synchronisieren in einen bestimmten Ordner, da kann man dann einen Link generieren, seiner Familie schicken: Schau mal, hier sind meine Urlaubsfotos! Die klicken dann drauf, sehen dann die schöne Gallery, können dann auf die Bilder klicken, sehen die in groß. Also das ist jetzt vielleicht nicht besonders spannend, aber das ist jetzt so einfach total praktisch. Wenn du jetzt auch noch fragst, was ist jetzt vielleicht ein bisschen cooler, oder interessanter: es gibt z.B. eine App, die finde ich persönlich total, weil ich die Idee toll finde, gut. Und das ist eine App, die kann man installieren, und dann kann man seine Kontaktdaten zu seinem E-Mail-Server eingeben in der App. Und diese App holt alle attachments, die mit meinem E-Mails gekommen sind, ab, und legt sie in einen Ordner, den man dann wieder synchronisiert auf seinen Desktop und Mobile. D.h. man hat quasi auf seinem Desktop einen Ordner, da sind alle attachments drin, die man von irgendwo mal bekommen hat. Das finde ich z.B. mal eine ganz kreative Idee, das habe ich so auch noch nicht gesehen.
+
+Peter: Oh, das muss ich mir mal anschauen... Und die letzte Frage ist: was wäre den die Frage, die ihr am Liebsten gestellt bekommen hättet von uns? Und die Antwort dazu, natürlich!
+
+Jan: Eigentlich waren das schon ziemlich gute Fragen!
+
+Frank: Also eine Herausforderung, hast du vorhin schon gefragt, ist halt immer: wie kann jemand ownCloud benutzen, der jetzt selbst keinen Server betreiben kann oder will. Und da ist natürlich die rosige Antwort: dann muss er zu einem Hoster gehen, wie ihr z.B. einer seid. Da würde ich gerne mit euch noch ein bisschen mehr diskutieren, wie man das irgendwie "smoother" machen kann, von der "experience". Ob man vielleicht aus der Desktop-App heraus sich direkt einen Account irgendwo holen kann. Das man da vielleicht, wie du (zeigt auf Jan) schon gesagt hast, die besten X irgendwie empfohlen angibt, gezeigt bekommt. Dann kan man sich vielleicht direkt daraus schon registrieren. Weil ich weiß gar nicht, bei Dropbox, ich hab das schon lang nicht mehr angeschaut, aber: kann man da nicht schon aus der Desktop-Anwendung heraus sich einen Account anlegen...?
+
+Jan: Ja...
+
+Frank: Genau! So etwas könnte man ja z.B. mit jemand wie euch auch mal zusammen entwickeln. Direkt aus der Anwendung oder aus dem Telefon heraus, da lädt man sich die ownCloud-App herunter aus dem App Store von Android oder iOS, sagt "Registrieren" und dann kommt halt: du kannst dich bei diesen 20 verschiedenen Providern registrieren, und da sind irgendwie vielleicht die Preise und Features, und dann sag ich: ah, der klingt gut! Kick! Und dann registrier ich mich gleich bei euch, und es wird gleich direkt eingetragen. So was z.B., da würde ich mit euch gerne mal ein bisschen brainstormen, was wir da Gutes machen können.
+
+Peter: Das klingt gut!
+
+Jan: Mir ist auch noch was eingefallen! Und zwar die Frage, wie kann man bei ownCloud mitmachen?
+
+Frank: Haha, sehr gut!
+
+Jan: Wir sind natürlich ein Open-Source-Projekt, und ich würde sagen, das ist eine sehr coole Community. Und unser Code ist auf github, z.B., zur Kollaboration. Das ist ein "core"-Repository, und dann für alle Apps, z.B. "calendar", "contacts", usw. Darauf kollaborieren wir eben. Wir haben auch, z.B. in München und Berlin, immer regelmäßig Meetups jeden Monat. Und jedes Jahr haben wir [... 22:36], dieses Jahr im September. Das ist immer sehr cool, zusammen zu arbeiten, mit so vielen Leuten. Und für jeden, der beim Programmieren mitmachen will, da gibt's einfach im issue tracker so einen "junior job" tag, z.B., da kann man einfach nach schauen und da gibt's so kleine Starter-Probleme, die man lösen kann. Oder neue Features vielleicht. Oder was auch immer man selber haben will, weil, wie gesagt, es ist eine Plattform, und jeder kann Apps entwickeln, was man möchte. Wie so ein kleines E-Mail-Attachment [...23:10]
+
+Peter: Ja dann, vielen Dank für das Interview!
