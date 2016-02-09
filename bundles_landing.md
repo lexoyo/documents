@@ -41,7 +41,7 @@ Want to free your team? Be in control to add users and mail addresses.
 
 Comes with:
 * Your own business domain name
-* Unlimited mail address "freeteammember@yourdomain.com"
+* Unlimited mail addresses "freeteammember@yourdomain.com"
 * Web interface to add and delete mail addresses at any time
 * Webmail interface for all users
 * Cloud for files, calendar and contacts with user management
