@@ -45,82 +45,198 @@ Jan: In addition there are ownCloud apps. Besides the fact that it is a file sha
 
 Peter: Für uns als IndieHosters ist das Ziel die Re-dezentralisierung des Internets. Also das es wieder mehr einzelne Sites gibt, und nicht alles zentral gelagert wird. Ihr hattet das ja schon bisschen angesprochen, aber wie seht ihr denn da die Rolle von ownCloud bei der Re-dezentralisierung?
 
+Peter: We as IndieHosters have the goal to re-decentralise the Internet. So that there are more individual sites, and not all data in stored in central instances. You already talked about, but how do you see the role of ownCloud within the re-decentralisation?
+
+
 Frank: Ja super, das ist eigentlich auch so ein bisschen unsere Mission. Der erste Schritt war natürlich, von zentralen Services, die es nur genau ein einziges Mal gibt auf der Welt, wie, es gibt nur ein Google, oder es gibt nur ein Dropbox, ein Facebook, die User zu "enablen" die Software zu hosten wo sie möchten. D.h. man kann es daheim hosten, man kann zu einem Hoster gehen, wie ihr z.B., man kann es an der Uni hosten, oder in Firma, oder wie auch immer, und das ist halt schonmal der erste Schritt. Aber natürlich geht es auch ein bisschen um Federation, nicht nur um Dezentralisierung, weil dann bleiben viele Inseln, das bringt auch nicht so viel. Die Inseln müssen dann auch wieder gesprengt werden. Und das ist das, was wir jetzt mit dem Federation-Feature machen wollen. Das man die "connecten" kann, das die zusammen arbeiten können, als ob es ein großer Server wäre, obwohl es keinen zentralen Server gibt.
+
+Frank: Great, that is somehow our mission, too. The first step was obviously, to go away from central services that only exist once globally, like there is only one Google, one Dropbox, one Facebook, and to enable the users to host the software where they want. Which means you can host it at home, you can go to a hoster, like you, you can host it at the university, or at a company, or whatever. And that is the first step. But it is also about federation, not only about decentralisation, because then you end up with a lot of islands, that does not help anybody. The islands have to be connected. And that is what we want to do with the federation feature. That you can connect them, that they work together, as if it was one big server, but in reality there is no central server.
+
 
 Peter: Ja, das hatte ich mal ausprobiert, mit Dateien geht das ganz gut, aber geht das damm auch mit Kalender, Kontakten und solchen Sachen?
 
+Peter: Yes, I tried this, it works well with files, but does this work with calendars, contacts and such things?
+
+
 Frank: Also Dateien ist jetzt der erste Schritt, aber wir wollen das auf andere Bereiche ausdehnen. Also, Jan hat schon angesprochen, eine Applikation die immer populärer wird ist diese ganze Thema Chat und WebRTC. Chat basierend auf XMPP, was ja für sich auch schon dezentral ist. Dann gibt es eine ownCloud-Mail-App, um seine Mails zu verwalten. Mail ist natürlich an sich auch schon dezentral. Also wir versuchen da schon noch mehr zu machen. Kalender und Kontakte vielleicht auch in der Zukunft.
+
+Frank: Files are now the first step, but we want to extend this into other areas. Jan talked about it, one application that gets more popular is the one for chat and WebRTC. Chat based on XMPP, which is decentralized already. And then there is the ownCloud mail app, to orgnanise your mails. Mail is decentralized already, too. We try to do more here. Calendars and contacts probably, too, in the futre.
+
 
 Jan: Und was uns auch wichtig dabei ist, ist dass er (der User) es dann natürlich in ownCloud verwendet, zuerst einmal, und dann aber auch andere Sachen, z.B. habt ihr (zeigt auf Frank) gestern mit [...] geredet, [...] cozy cloud [...]. Und so entwickelt sich das alles, und das ist ja eigentlich das Coole, selbst bei Federation, das dann nicht nur dieses eine System, wie z.B. ownCloud, miteinander kommunizieren kann, sondern auch komplett andere Leute, die andere Systeme benutzen. Was eigentlich die Power so wirklich von Open Source ist, weil andere Leute benutzen vielleicht dann andere Systeme, weil sie eben sagen, hey, das hier macht das anders, das hier macht das anders, aber trotzdem können sie dann miteinander kommunizieren.
 
+Jan: And what is important here is that the user may use this first within ownCloud, but then also with other software, like yesterday you, Frank, talked to ... This way things develop further, and that is the cool thing about federation, that not only one system, like ownCloud, can talk other instances, but completely different people that use other systems. This is the power of open source, because different people use maybe different systems, because they say: hey, this system does is like this, this system does it like that, but they can still communicate with each other.
+
+
 Peter: Gibt es da zur Zeit aktuelle Ansätze, zum Beispiel mit cozy cloud?
+
+Peter: Are there currently any steps towards this, for example with cozy cloud?
+
 
 Frank: Also das Federation-Feature, dass du und ich einen gesharten Ordner haben können, obwohl wir nicht auf demselben Server sind, das haben wir in ownCloud entwickelt, in der neunten Version ist das auch gut funktionsfähig. Aber wir haben auch die entsprechende API so gemacht, dass sie von Anderen [... 11:00] werden kann, haben das jetzt im Sommer dokumentiert und versuchen das jetzt als Standard zu etablieren. Und jetzt gerade erst gestern haben wir hier ein Treffen gehabt mit den Leuten von [... 11:12], cozy cloud, und die möchten das auch implementieren. Und das ist glaube ich ein netter Schritt, um dann diese dezentrale, federated, interoperability zu haben.  Weil es soll nicht von einem Player dominiert werden, sonst hat man ja wieder einen Fixpunkt wie Google.
 
+Frank: The federation feature, which allows you and me to share a folder, even if we are not on the same server, this feature we developed within ownCloud, it is working really well in version 9. But we designed the API so that others can use it, we documented it during the summer and try to establish it as a standard. Just yesterday we had a meeting with some people from ..., cozy cloud, and they want to implement it. I think that is a great step, to reach the decentralized, federated interoperability. The area should not be dominated by a single player, otherwise you again have a fix point like Google.
+
+
 Peter: Das Web besteht jetzt zu 25% aus Wordpress, wie viele Petabytes gibt es insgesamt auf ownClouds?
+
+Peter: The web is now 25% Wordpress, how many peta bytes are hosted on ownClouds?
+
 
 Frank: Das ist nicht zu messen. Man kann jetzt immer ein bisschen schauen, wie viele Downloads haben wir denn so, entwickeln sich Trends, und wir haben neulich wieder ein bisschen gerechnet und sind zu dem Schluss gekommen, dass wir wohl so um die 8 Millionen User haben. Aber das ist geschätzt.
 
+Frank: That is not measureable. We can look at our number of downloads, are there any trends. Recently we calculated a bit and came to the conclusion that there are around 8 millions user. But this is an estimation.
+
+
 Peter: Ist ja dezentral...
+
+Peter: It's decentralised...
+
 
 Jan: Man weiß nie, wie viele Leute auf einer Installation sind.
 
+Jan: You never know how many people use one installation.
+
+
 Frank: Wir haben halt keine zentrale User-Datenbank wie Andere.
+
+Frank: We do not have any central user database like others.
+
 
 Peter: Mit ownCloud ist es ja z.B. auch möglich Daten mit dem Mobilfunk zu synchronisieren. Arbeitet ihr auch an solchen Lösungen speziell für Mobilgeräte, ownCloud dort zu integrieren?
 
+Peter: With ownCloud it is possible, for example, to synchronise your data on a mobile phone. Do you work on any solutions specifically for mobile devices, to integrate ownCloud?
+
+
 Frank: Ja klar, also für Dateien als Kern, wie Jan gesagt hat, da gibt es Apps von ownCloud selbst, zur Integration auf Android und iOS. Ansonten geht auch unser Web-Interface, das in der neuesten Version auch gut funktioniert, für Mobile. Wir stützen uns ja auch auf offene Protokolle, soweit es geht, also WebDAV, das funktioniert natürlich mit verschiedenen Geräten. Ich benutze z.B. eine kleine Applikation auf meinem Telefon für Notizen, die Dateien mit WebDAV synchronisieren kann. Das geht dann eben auf die ownCloud.
+
+Frank: Yes sure, for files as our core, there are apps from ownCloud, to integrate on Android and iOS. In addition there is the web interface, that works well on mobile devices in the latest version. We rely on open standards, as far as possible, which means WebDAV, that works with different devices. For example, I use a small app on my mobile phone for notes, that is able to synchronize files with WebDAV. In this case they go to ownCloud.
+
 
 Jan: Und genau für Kalender und Kontakte benutzen wir CalDAV und CardDAV. Bei Android braucht man da eine extra App zu, DAVdroid, oder es gibt auch ein paar andere. Aber DAVdroid ist z.B. Open Source. Von iOS wird CalDAV und CardDAV nativ unterstützt, da kann man das einfach hinzufügen. Und dann gibt es beispielsweise für die ownCloud-Notes-App, oder für die News-App, mobile Applikationen, die dann ein Ersatz für Google Reader sind. Die dann auch offline das Ganze cachen.
 
+Jan: For calendars and contacts we use CalDAV and CardDAV. On Android you need an additonal app for this, DAVdroid, and there are others. But DAVdroid is open source. iOS does support CalDAV and CardDAV natively, you can just add your account. Then there are mobile applications for the ownCloud notes app, or for the news app, for example, as a replacement for Google Reader. They cache the data for offline usage.
+
+
 Peter: Aber von euch kommt dann keine Anwendungen für z.B. Kalender oder Adressen, z.B. für Android?
+
+Peter: But you do not develop applications for calendars or contacts, for example for Android?
+
 
 Jan: Nein, weil es benutzt die nativen Anwendungen. Es synchronisiert die Daten.
 
+Jan: No, we rely on the native apps. They synchronize the data.
+
+
 Frank: Ich glaube, wenn wir uns jetzt noch vornehmen würden, eine eigene Kalender-Applikation zu schreiben, dann würden wir uns wahrscheinlich übernehmen. Wir unterstützen die offenen Protokolle und es gibt dann entsprechende Kalender, die das benutzen. Und dasselbe gilt z.B. auch für Musik. Auch eine sehr populäre Applikation ist die Musik-App. Wenn man seine Musiksammlung hochsynchronisiert hat auf seine ownCloud, dann erkennt die Musik-App die Musikstücke, wertet ID3-Tags aus, lädt Covers runter. Und hat dann eine API, das ist die Apache-API, über die man auf die Musik von außen zugreifen kann. Dann gibt es z.B. Clients auf dem Mobiltelefon, die Apache-kompatibel sind, die kann man mit seinem Server connecten, dann kann man die Musik von unterwegs streamen. Das ist auch so ein Beispiel, wo wir jetzt nicht zwangsweise den Player selber entwickeln müssen. Aber wenn man halt offene Protokolle verwendet, dann tut's jemand.
+
+Frank: I think if we planned to build our own calendar application that would be too much for us. We support open protocols and there are already calendars that use those. The same is true for music, for example. A very popular app is the music app. After you synchronized your music collection with ownCloud, the music app scans the music files, analyses ID3 tags, downloads covers. It contains an API that is Apache compatible, which allows you to access the music from the outside. Then there are clients on mobile phones, for example, that are Apache compatible. You can connect those to the server and stream your music from anywhere. This is another example, where we do not necessarily need to develop our own player. But if you use open standards, somebody will do it.
+
 
 Peter: Wir haben die Idee Registrier-Buttons zu machen für Free Software web applications, aber dezentral eben. Bei Dropbox z.B. geht man auf die Seite, klickt auf "Registrieren" und trägt seine E-Mail-Adresse und Passwort ein, und hat den Account und benutzt ihn. Wie könnte denn so etwas aussehen für ownCloud, oder auch für andere Free Software Webanwendungen? Habt ihr da irgendwelche Pläne oder Ideen?
 
+Peter: Our idea is to create register buttons for free software web applications, in a decentralized way. On Dropbox, for example, you visit their page, click on "Register", enter your mail address and password and instantly get your account and use it. How could something like that look for ownCloud, or for other free software web applications? Do you have any plans or ideas around this?
+
+
 Jan: Bei ownCloud haben wir eine Provider-Page, wo wir ownCloud-Provider listen, wo man sich anmelden kann. Da gab's jetzt auch die Idee, man könnte das reduzieren auf eine gewisse Art und Weise, und die Auswahl ein bisschen einfacher zu machen. Oder mich fragen oft Leute, welchen Provider empfiehlst du denn? Natürlich ist es schwierig, dadurch dass es jetzt nicht ein owncloud.com zum Anmelden gibt. Was Diasora immer noch macht, oder mal gemacht hat, dort gibt es einen "Registrieren"-Button und dann wird man zu einer zufälligen Instanz gesendet. [... 16:07] Ist jetzt auch ein bisschen, ich weiß nicht...
+
+Jan: On the ownCloud site we have a provider page, where we list ownCloud providers, where you can register as a provider. We also had the idea to reduce the list in a certain way, to simplify the choice. Often people ask me which provider I recommend. This is difficult, of course, because there is no "owncloud.com" for registrations. I think Diaspora did it in a way, or they still do it, with a register button and then you are redirected to a random instance. ... This is a bit, I don't know...
+
 
 Peter: Für die eigenen Daten ist das bisschen komisch...
 
-Jan: Genau.
+Peter: A bit strange for your personal data...
 
-Frank: Genau.
+
+Jan, Frank: Genau.
+
+Jan, Frank: Exactly.
+
 
 Jan: Ich empfehle dann lieber persönlich Leuten was. Oder je nach Person: ist es eine Person, die einen eigenen Server hosten kann, oder die einen Provider haben möchte? Oder es sogar es auf dem Raspberry Pi installieren möchte? Da sind derzeit viele Ansätze. Es gibt so viele Metriken nach denen man die Provider einordnen kann. Das ist einfach schwierig, das zu kategorisieren. Da wärs auch interessant mit euch zu reden...
 
+Jan: I prefer to give personal recommendations. Depending on the person: is the person able to host her own server, or prefers a provider? Or wants to install it on a Raspberry Pi? There are many approaches at the moment. There are so many metrics to rank providers. It is very difficult to categorize this. It would be interesting to talk to you about that...
+
+
 Peter: Naja, wir haben ja die Idee des "migration network", also dass man
+
+Peter: Well, we had the idea of a "migration network", where you can...
+
 
 Frank: Das man frei migrieren kann...
 
+Frank: ... that you can migrate freely ...
+
+
 Peter: Genau, dass der Nutzer sich dann registrieren kann für ownCloud, dann zahlt er für ein Jahr, aber er kann jederzeit den Hoster wechseln, per Knopfdruck am Besten. Oder auch auf einen Homeserver, wenn er jetzt einen Raspberry Pi installiert hat, dass er per Klick die Daten wieder einfach aus dem Netz auf seinen Raspberry legen kann.
+
+Peter: Exactly, that the user can register for ownCloud, pays for a year, but he can change the hoster at any time, by clicking a button if possible. Or move to a home server, if he installed a Raspberry Pi, so that he can put his data from the Internet on his Raspberry with one click.
+
 
 Jan: Genau, dass ist bei ownCloud dann auch möglich, einfach dadurch, dass wir offenen Formate und Protokolle benutzen, man kann Exportieren, Importieren. Und da kann man quasi Andocken.
 
+Jan: Exactly, this is also possible with ownCloud, simply because of the fact that we use open formats and protocols, you can export and import. Here one can dock into.
+
+
 Peter: Und was ist euer Lieblings-Plugin oder -Feature von ownCloud? Was benutzt ihr am Meisten?
 
-Jan: Also ich benutze natürlich die Mail-App sehr viel, weil ich da selber dran arbeite. Das ist ein IMAP-Clien. Aber ich finde das einfach interessant, weil immer gesagt wird: ach Mail ist so kompliziert, es gibt wenig ordentliche Mail-Apps. Ich bin mit den Open-Source-Lösungen immer ein bisschen enttäuscht, muss ich sagen. Und deswegen finde ich das ganz interessant, an was Besserem zu arbeiten. Auch weil es ein sehr gutes Beispiel ist der Integration mit anderen Apps. Zum Beispiel, wenn du eine Mail schreibst und einen Empfänger eingibst, dann wirds von deinen "Contacts" automcompleted. Du kannst Dateien als attachments hochladen aus "Files", oder attachments von anderen Mails einfach im Netz speichern. Und es ist eben sehr integriert. Avatare von Kontakten werden geladen, und deine eigenen Daten. Und das benutze ich sehr oft.
+Peter: What is your favorite plugin or feature of ownCloud? What do you use the most?
+
+
+Jan: Also ich benutze natürlich die Mail-App sehr viel, weil ich da selber dran arbeite. Das ist ein IMAP-Client. Aber ich finde das einfach interessant, weil immer gesagt wird: ach Mail ist so kompliziert, es gibt wenig ordentliche Mail-Apps. Ich bin mit den Open-Source-Lösungen immer ein bisschen enttäuscht, muss ich sagen. Und deswegen finde ich das ganz interessant, an was Besserem zu arbeiten. Auch weil es ein sehr gutes Beispiel ist der Integration mit anderen Apps. Zum Beispiel, wenn du eine Mail schreibst und einen Empfänger eingibst, dann wirds von deinen "Contacts" automcompleted. Du kannst Dateien als attachments hochladen aus "Files", oder attachments von anderen Mails einfach im Netz speichern. Und es ist eben sehr integriert. Avatare von Kontakten werden geladen, und deine eigenen Daten. Und das benutze ich sehr oft.
+
+Jan: I personally use the mail app a lot, because I am working on it. It is an IMAP client. I just find it interesting, because often you hear: ah, mail is so complex, there are only few good mail apps. I am a bit disappointed with existing open source solutions, to be honest. And that's why I find it interesting, to work on something better. Also because it is an interesting example for the integration with other apps. For example, if you write a mail and enter the recipient you will get autompletion from your contacts. From your files you can simply add attachments, or store attachments from mails on the net. This one is highly integrated. Avatars are loaded from the contacts, and your own data. I use it a lot.
+
 
 Frank: Jetzt hatte ich lange Zeit drüber nachzudenken, aber... Also du hast jetzt einmal gefragt, was ich am meisten benutze, aber auch, was mir das liebste Feature ist. Am meisten benutze ich unspannende Dinge, so wie einen Ordner hochzusynchronisieren, dann einen Public-Sharing-Link generieren, per Mail jemand senden und der kann das dann anschauen. Was z.B. für Fotos wunderbar geht. Man kann von der Mobiltelefon-Applikation Fotos synchronisieren in einen bestimmten Ordner, einen Link generieren, seiner Familie schicken: Schau mal, hier sind meine Urlaubsfotos! Die klicken dann drauf, sehen die schöne Gallery, können auf die Bilder klicken, sehen sie in groß. Das ist jetzt vielleicht nicht besonders spannend, aber das ist einfach total praktisch. Wenn du jetzt noch fragst, was ist vielleicht ein bisschen cooler, oder interessanter: es gibt z.B. eine App, die finde ich persönlich total gut, weil ich die Idee toll finde. Das ist eine App, die kann man installieren und gibt dann seine Kontaktdaten zu seinem E-Mail-Server ein. Und diese App holt alle attachments ab, die mit meinem E-Mails gekommen sind, und legt sie in einen Ordner, den man dann wieder synchronisiert auf seinen Desktop und Mobile. D.h. man hat auf seinem Desktop einen Ordner, da sind alle attachments drin, die man von irgendwo mal bekommen hat. Das finde ich eine ganz kreative Idee, das habe ich so auch noch nicht gesehen.
 
+Frank: Now I had some time to think about it, but... On the one hand you asked what I use mostly, but on the other hand what is my favorite feature. Mostly I use not very exciting things, like synchronize folders, create a publicly shared link, send it to someone and the recipient can then look at it. Which is wonderful for photos, for example. You can synchronize photos to a specific folder with the mobile phone app, generate a link, send it to your family: look, my vacation photos! They click on it, see a beautiful gallery, can click on the images, watch them in large. That is maybe not very exciting, but I find it very handy. If you also ask what is a bit fancier or more intersting: there is an app, for example, that I personally find very good, because I like the idea a lot. It is an app that you can install and then enter the data of your mail server. Then the app fetches all attachments that arrived with your mails, and puts it in a folder that you synchronise to your desktop of mobile. You get a folder on your desktop with all the attachments that you ever received. I think this is a very creative idea, I have never seen something like that before.
+
+
 Peter: Das muss ich mir mal anschauen... Und die letzte Frage ist: was wäre denn die Frage, die ihr am Liebsten gestellt bekommen hättet von uns? Und die Antwort dazu, natürlich!
+
+Peter: I have to have a look at this... and the last question is: what would be the question that you would like to be asked from us? And your answer, please!
+
 
 Jan: Eigentlich waren das schon ziemlich gute Fragen!
 
+Jan: Actually those were really good question already!
+
+
 Frank: Also eine Herausforderung, hast du vorhin schon gefragt, ist immer: wie kann jemand ownCloud benutzen, der jetzt selbst keinen Server betreiben kann oder will. Da ist natürlich die rosige Antwort: dann muss er zu einem Hoster gehen, wie ihr z.B. einer seid. Da würde ich gerne mit euch noch ein bisschen mehr diskutieren, wie man das irgendwie "smoother" machen kann, von der "experience". Ob man sich vielleicht aus der Desktop-App heraus direkt einen Account irgendwo holen kann. Das man da vielleicht, wie du (zeigt auf Jan) schon gesagt hast, die besten X gezeigt bekommt. Dann kan man sich vielleicht direkt schon registrieren. Ich weiß gar nicht, ich hab mir Dropbox schon lang nicht mehr angeschaut, aber: kann man da nicht schon aus der Desktop-Anwendung heraus sich einen Account anlegen...?
+
+Frank: One challenge, you asked about it, is: how can someone use ownCloud that is not able or does not want to run a server. The bright answer is: she has to go to a hoster, like you. I would really like to discuss with you more about this, how to make the experience smoother. Maybe you can get an account somewhere from the desktop application. We will display, as mentioned, the best X hosters. Then you can register directly. I did not have a look at Dropbox for a while, but aren't you able to create an account there directly from the desktop application...?
+
 
 Jan: Ja...
 
+Jan: Yes...
+
+
 Frank: Genau! So etwas könnte man z.B. mit jemand wie euch zusammen entwickeln. Direkt aus der Anwendung oder aus dem Telefon heraus, da lädt man sich die ownCloud-App herunter aus dem App Store von Android oder iOS, sagt "Registrieren" und dann kommt: du kannst dich bei diesen 20 verschiedenen Providern registrieren, da sind vielleicht die Preise und Features, und dann sag ich: ah, der klingt gut! Kick! Dann registrier ich mich gleich bei euch, und die Daten werden direkt in die App eingetragen. Da würde ich gerne mal ein bisschen mit euch brainstormen, was wir da Gutes machen können.
+
+Frank: Eactly! Something like this one could develop for example with you. Directly from the application or from the mobile phone, you download the ownCloud app from the app store on Anroid or iOS, click on "Register" and then appears: you can register at those 20 providers, maybe with prices and feature, and then I say: this one looks good! Click! Then I register directly with you and the data is stored in the app. I would really like to brainstorm with, what great thing we can build here.
+
 
 Peter: Das klingt gut!
 
-Jan: Mir ist auch noch was eingefallen! Und zwar die Frage, wie kann man bei ownCloud mitmachen?
+Peter: Sounds good!
+
+
+Jan: Mir ist auch noch was eingefallen! Und zwar die Frage, wie kann man bei ownCloud mitmachen.
+
+Jan: Another thing came to my mind, too! The question on how to participate at ownCloud.
+
 
 Frank: Haha, sehr gut!
 
+Frank: Haha, very good!
+
+
 Jan: Wir sind natürlich ein Open-Source-Projekt, und ich würde sagen, das ist eine sehr coole Community. Und unser Code ist auf github, zur Kollaboration. Da ist ein "core"-Repository, und dann diejenigen für alle Apps, z.B. "calendar", "contacts", usw. Dort kollaborieren wir. Wir haben auch regelmäßig Meetups jeden Monat, z.B. in München und Berlin. Und jedes Jahr haben wir [... 22:36], dieses Jahr im September. Das ist immer sehr cool mit so vielen Leuten zusammen zu arbeiten. Und für jeden, der beim Programmieren mitmachen will, da gibt's im issue tracker einen "junior job" tag, da kann man einfach nach schauen und das sind kleine Starter-Probleme, die man lösen kann. Oder neue Features. Oder was auch immer man selber haben will, wie gesagt, es ist eine Plattform, und jeder kann Apps entwickeln, was man möchte. Wie so ein kleines E-Mail-Attachment [...23:10]
 
+Jan: Of course we are an open source project, and I would say we have a very cool community. Our code is on github for collaboration. There is a "core" repository, and the ones for all the apps, for example "calendar", "contacts", etc. There we collaborate. We also have regular Meetups every month, for example in Munich and Berlin. And every year we organize, ... , in September this year. It is always amazing to work with so many people. And for everyone that wants to participate in development we have a "junior job" tag in our issue tracker. Those are small "starter problems" to solve, or even new features. Or whatever you want to develop, as already said, it is a platform, and everybody can develop apps, whatever you want. Like a ...
+
 Peter: Ja dann, vielen Dank für das Interview!
+
+Peter: Thanks a lot for the interview!
