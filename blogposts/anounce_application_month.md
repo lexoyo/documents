@@ -12,7 +12,7 @@ Besides the individual advantages our vision is the
 [re-decentralisation](http://redecentralize.org/) of the Internet: an open
 network of federated services where users as citizens have the freedom to choose
 where to host their data. They might choose to install and run their own server,
-pay a hoster like us or similar like-minded organisations and companies that
+pay a [hoster like us](https://indiehosters.net/page/home)or [similar like-minded organisations and companies](https://github.com/indiehosters/nice-hosting-providers) that
 they trust, or even use one of the popular and large-scale cloud platforms. Free
 software web applications and open protocols are the cornerstone of this
 infrastracture, as only those guarantee that users can connect between different
