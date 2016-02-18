@@ -1,4 +1,4 @@
-Hi ProjectName, you are a user since quiet a while! We wanted to share your experience with our service, and how you use our tools to build your community.
+Hi ProjectName, you are a user since quite a while! We wanted to share your experience with our service, and how you use our tools to build your community.
 Before starting, could you present your project?
 
 1. How did you hear about IndieHosters?
@@ -15,4 +15,4 @@ Before starting, could you present your project?
 
 7. Can you share some figures about your organisation?
 
-8. To finnish, what is the question you'd have liked us to ask? (And the answer ;) )
+8. To finish, what is the question you'd have liked us to ask? (And the answer ;) )
