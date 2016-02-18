@@ -12,7 +12,8 @@ Besides the individual advantages our vision is the
 [re-decentralisation](http://redecentralize.org/) of the Internet: an open
 network of federated services where users as citizens have the freedom to choose
 where to host their data. They might choose to install and run their own server,
-pay a [hoster like us](https://indiehosters.net/page/home)or [similar like-minded organisations and companies](https://github.com/indiehosters/nice-hosting-providers) that
+pay a [hoster like us](https://indiehosters.net/page/home) or [similar
+like-minded organisations and companies](https://github.com/indiehosters/nice-hosting-providers) that
 they trust, or even use one of the popular and large-scale cloud platforms. Free
 software web applications and open protocols are the cornerstone of this
 infrastracture, as only those guarantee that users can connect between different
@@ -21,7 +22,7 @@ fits them better.
 
 We feel that more and more people become aware of the problems around central data
 storage and the related accumulation of power, but we also notice that many
-still do not know that alternatives exist or if they are food enough for their
+still do not know that alternatives exist or if they are good enough for their
 daily work and communication. For this reason we decided to start a series of
 blog posts that we call "Application of the Month". Each month, we
 will present a free software web application from the IndieHosters offer. We
