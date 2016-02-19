@@ -9,9 +9,9 @@ Before starting, could you present your project?
 
 4. How do you envision the future for IndieHosters and ProjectName?
 
-5. The application of the month is < >, could you tell us more on how do you leverage this tool?
+5. The application of the month is ApplicationName, could you tell us more on how do you leverage this tool?
 
-6. What is the single feature you love about IndieHosters?
+6. What is your favorite feature in ApplicationName? And the one you use every days?
 
 7. Can you share some figures about your organisation?
 
