@@ -1,4 +1,4 @@
-# IndieHosters' Application of the Month
+# We proudly present: The IndieHosters Freedom Bundles
 
 For most proprietary, closed and centralised services that people nowadays use
 on the web there exists at least one
