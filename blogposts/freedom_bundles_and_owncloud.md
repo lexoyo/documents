@@ -1,5 +1,7 @@
 # Our Freedom Bundles are powered by ownCloud
 
+![ownCloud Screenshots](oc_screens.png)
+
 Last week we introduced a new offer: the [IndieHosters Freedom Bundles]
 (https://indiehosters.net/shop/category/bundle-16). The bundles are our
 alternative to closed services like Google Apps or Microsoft Outlook,
