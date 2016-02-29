@@ -16,7 +16,7 @@ with the core functionality like contact and file storage. The upcoming version
 features, which means you will be able to connect with other ownClouds easily
 and communicata and share data with your friends and co-workers. Due to its
 popularity there is now even a company around ownCloud, that sells services and
-support to enterprise customers. OwnCloud is definitely one of the success
+support to enterprise customers. ownCloud is definitely one of the success
 cases for the free software community and here for many more years to stay. 
 
 We will show more about those features and how we use them in upcoming posts,
