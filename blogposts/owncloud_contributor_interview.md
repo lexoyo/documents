@@ -1,6 +1,6 @@
 # ownCloud interview: "It is also about federation, not only about decentralisation"
 
-## Interview with two ownCloud developers
+## Interview with Frank and Jan of ownCloud
 
 Earlier this year it was [FOSDEM](http://fosdem.org/) time again. As one of the
 biggest, or even the biggest, event around free and open source software the
@@ -24,17 +24,16 @@ together with the announcement of our shiny new
 powered by ownCloud. We are proud to build the Internet of the future!
 
 
-## "It's an alternative to those proprietary solutions, but it is also a tool
-that is easy to use"
+## "It's an alternative to those proprietary solutions, but it is also a tool that is easy to use"
 
 ![Jan and Frank of ownCloud talking](https://cloud.indie.host/index.php/s/gDdoBh5lr1oIipU/download)
 
-Peter: First I would like to know who you are. Could you introduce yourselves?
+*Peter:* First I would like to know who you are. Could you introduce yourselves?
 And what you do exactly for ownCloud, how you started, both in the community and
 at the company?
 
 
-Frank: I started to think about it roughly 6 years ago, that there should be
+*Frank:* I started to think about it roughly 6 years ago, that there should be
 something like ownCloud, and I also came up with the name. I developed version
 1.0 and published it online as open source. And since then the community grew.
 By now this is a nice community with several hunderd people that work on
@@ -45,23 +44,23 @@ enterprise product with support and everything related to it. I co-founded this
 company.
 
 
-Jan: I am Jan, I am mainly a designer at ownCloud. I discovered it in 2011, as I
+*Jan:* I am Jan, I am mainly a designer at ownCloud. I discovered it in 2011, as I
 was looking for an open alternative to Dropbox and such things. I found out that
 the first hackathon is in Stuttgart, where I studied at that time. We were
 around 4, 5 people, and this is how it started. Since end of 2012 I work full
 time for the ownCloud company and do the design.
 
 
-Frank: Jan is our design and UX lead, and is responsible for the frontend, how
+*Frank:* Jan is our design and UX lead, and is responsible for the frontend, how
 the UI looks now. This is a very important, very central position, as ownCloud
 is not supposed to be a "hacker tool", but a tool for "normal" users, without
 special knowledge.
 
 
-Peter: What is the main problem that ownCloud solves, from your perspective?
+*Peter:* What is the main problem that ownCloud solves, from your perspective?
 
 
-Jan: First, obviously, it's an alternative to those proprietary solutions, but
+*Jan:* First, obviously, it's an alternative to those proprietary solutions, but
 it is also a tool that is easy to use, that provides file synchronisation on
 your own server, under your own terms, in an simple way. The installation is as
 simple as possible, maybe even simpler than Wordpress. Of course you have to set
@@ -70,12 +69,12 @@ takes care of that for you. And in principle the registration is as easy as at
 Dropbox and similar services.
 
 
-Peter: What are some of your short and long term goals for ownCloud? What do you
+*Peter:* What are some of your short and long term goals for ownCloud? What do you
 plan next, and what are your visions for the future? Can you tell us something
 about that?
 
 
-Frank: Yes, sure. First, the vision, as Jan just described, is to have a tool
+*Frank:* Yes, sure. First, the vision, as Jan just described, is to have a tool
 that is powerful on the one hand and provides all the functionality, that the
 user needs, but combined with an interface that is as easy-to-use as possible.
 That is the main goal, and that will not change. But this is something that
@@ -95,7 +94,7 @@ users, or in the hand of the developers community. Everyone who wants to
 contribute is invited to do it.
 
 
-Jan: In addition there are ownCloud apps. Besides the fact that it is a file
+*Jan:* In addition there are ownCloud apps. Besides the fact that it is a file
 sharing and synchronization tool, there are many apps, like contacts, calendar,
 notes and a news app, for all possible use cases. And if something does not
 exist yet maybe someone is currently working on it. There are many things going
@@ -104,19 +103,18 @@ and XMPP for video and voice chat. Different things, that are done completely by
 the community.
 
 
-## "I think that is a great step, to reach decentralised, federated
-interoperability"
+## "I think that is a great step, to reach decentralised, federated interoperability"
 
 ![Jan and Frank of ownCloud talking](https://cloud.indie.host/index.php/s/GlyN29OA21NcEWt/download)
 
 
-Peter: We as IndieHosters have the goal to re-decentralise the Internet. So that
+*Peter:* We as IndieHosters have the goal to re-decentralise the Internet. So that
 there are more individual sites and not all data is stored in central instances.
 You already talked about it, but how do you see the role of ownCloud within the 
 re-decentralisation?
 
 
-Frank: Great question, that is somehow our mission, too. The first step was,
+*Frank:* Great question, that is somehow our mission, too. The first step was,
 obviously, to go away from central services that only exist once globally, like
 there is only one Google, one Dropbox, one Facebook, and to enable the users to
 host the software where they want. Which means you can host it at home, you can
@@ -129,11 +127,11 @@ them, that they work together, as if it was one big server, but in reality there
 is no central server.
 
 
-Peter: Yes, I tried this, it works well with files, but does this work with
+*Peter:* Yes, I tried this, it works well with files, but does this work with
 calendars, contacts and such things?
 
 
-Frank: Files are now the first step, but we want to extend this into other
+*Frank:* Files are now the first step, but we want to extend this into other
 areas. Jan talked about it, one application that gets more popular is the one
 for chat and WebRTC. Chat based on XMPP, which is decentralised already. And
 then there is the ownCloud mail app, to orgnanise your mails. Mail is
@@ -141,7 +139,7 @@ decentralised already, too. We try to do more here. Calendars and contacts
 probably in the future, too.
 
 
-Jan: And what is important here is that the user may use those features first
+*Jan:* And what is important here is that the user may use those features first
 within ownCloud, but then also with other software. Like yesterday you, Frank,
 talked to Pydio, and the people of Cozy Cloud set next to them. This way things
 develop further, and that is the cool thing about federation, that not only one
@@ -152,10 +150,10 @@ this, this system does it like that, but they can still communicate with each
 other.
 
 
-Peter: Are there currently any steps towards this, for example with Cozy Cloud?
+*Peter:* Are there currently any steps towards this, for example with Cozy Cloud?
 
 
-Frank: The federation feature, which allows you and me to share a folder, even
+*Frank:* The federation feature, which allows you and me to share a folder, even
 if we are not on the same server, this feature we developed within ownCloud, it
 is working really well in version 9. But we designed the API so that others can
 use it, we documented it during the summer and try to establish it as a
@@ -165,22 +163,22 @@ decentralised, federated interoperability. The area should not be dominated by
 a single player, otherwise you have a fix point like Google again.
 
 
-Peter: The web is now 25% Wordpress, how many peta bytes are hosted on
+*Peter:* The web is now 25% Wordpress, how many peta bytes are hosted on
 ownClouds?
 
 
-Frank: That is not measureable. We can look at our number of downloads, are
+*Frank:* That is not measureable. We can look at our number of downloads, are
 there any trends. Recently we calculated a bit and came to the conclusion that
 there are around 8 million users. But this is an estimation.
 
 
-Peter: It's decentralised...
+*Peter:* It's decentralised...
 
 
-Jan: You never know how many people use one installation.
+*Jan:* You never know how many people use one installation.
 
 
-Frank: We do not have any central user database like others.
+*Frank:* We do not have any central user database like others.
 
 
 ## "But if you use open standards, somebody will do it."
@@ -188,12 +186,12 @@ Frank: We do not have any central user database like others.
 ![Jan and Frank of ownCloud talking](https://cloud.indie.host/index.php/s/fx2tBebsHer8Hi8/download)
 
 
-Peter: With ownCloud it is possible, for example, to synchronise your data with
+*Peter:* With ownCloud it is possible, for example, to synchronise your data with
 a mobile phone. Do you work on any solutions specifically for mobile devices, to
 integrate ownCloud?
 
 
-Frank: Yes sure, for files as our core there are apps from ownCloud, to
+*Frank:* Yes sure, for files as our core there are apps from ownCloud, to
 integrate it on Android and iOS. In addition there is the web interface that
 works well on mobile devices in the latest version. We rely on open standards,
 as far as possible, which means WebDAV that works with different devices. For
@@ -201,7 +199,7 @@ example, I use a small app on my mobile phone for notes, that is able to
 synchronize files with WebDAV. In this case they go to ownCloud.
 
 
-Jan: For calendars and contacts we use CalDAV and CardDAV. On Android you need
+*Jan:* For calendars and contacts we use CalDAV and CardDAV. On Android you need
 an additonal app for this, DAVdroid, and there are others. But DAVdroid is open
 source. iOS does support CalDAV and CardDAV natively, you can just add your
 account. Then there are mobile applications for the ownCloud notes app, or for
@@ -209,14 +207,14 @@ the news app, for example, as a replacement for Google Reader. They cache the
 data for offline usage.
 
 
-Peter: But you do not develop applications for calendars or contacts, for 
+*Peter:* But you do not develop applications for calendars or contacts, for 
 example for Android?
 
 
-Jan: No, we rely on the native apps. They synchronize the data.
+*Jan:* No, we rely on the native apps. They synchronize the data.
 
 
-Frank: I think if we planned to build our own calendar application that would be
+*Frank:* I think if we planned to build our own calendar application that would be
 too much for us. We support open protocols and there are already calendars that
 use those. The same is true for music, for example. A very popular app is the
 music app. After you synchronized your music collection with ownCloud, the music
@@ -228,7 +226,7 @@ another example, where we do not necessarily need to develop our own player. But
 if you use open standards, somebody will do it.
 
 
-Peter: Our idea is to create register buttons for free software web
+*Peter:* Our idea is to create register buttons for free software web
 applications, in a decentralised way. On Dropbox, for example, you visit their
 page, click on "Register", enter your mail address and password and instantly
 get your account and use it. How could something like that look for ownCloud or
@@ -236,7 +234,7 @@ for other free software web applications? Do you have any plans or ideas around
 this?
 
 
-Jan: On the ownCloud site we have a provider page, where we list ownCloud
+*Jan:* On the ownCloud site we have a provider page, where we list ownCloud
 providers, where you can register as a provider. We also had the idea to reduce
 the list in a certain way, to simplify the choice. Often people ask me which
 provider I recommend. This is difficult because there is no "owncloud.com" for
@@ -245,32 +243,32 @@ button and then you are redirected to a random instance. Or pump.io did it like
 this. This is a bit, I don't know...
 
 
-Peter: A bit strange for your personal data...
+*Peter:* A bit strange for your personal data...
 
 
-Jan, Frank: Exactly.
+Jan, *Frank:* Exactly.
 
 
-Jan: I prefer to give personal recommendations. Depending on the person: is the
+*Jan:* I prefer to give personal recommendations. Depending on the person: is the
 person able to host her own server, or prefers a provider? Or wants to install
 it on a Raspberry Pi? There are many approaches at the moment. There are so many
 metrics to rank providers. It is very difficult to categorize this. It would be
 interesting to talk to you about that...
 
 
-Peter: Well, we had the idea of a "migration network", where you can...
+*Peter:* Well, we had the idea of a "migration network", where you can...
 
 
-Frank: ... that you can migrate your data freely ...
+*Frank:* ... that you can migrate your data freely ...
 
 
-Peter: Exactly, that the user can register for ownCloud, pays for a year, but he
+*Peter:* Exactly, that the user can register for ownCloud, pays for a year, but he
 can change the hoster at any time, by clicking a button. Or move to a home
 server, if he installed ownCloud on a Raspberry Pi, so that he can put his data
 from the Internet on his Raspberry with one click.
 
 
-Jan: Exactly, this is also possible with ownCloud, simply because of the fact
+*Jan:* Exactly, this is also possible with ownCloud, simply because of the fact
 that we use open formats and protocols, you can export and import. Here one can
 dock into.
 
@@ -280,11 +278,11 @@ dock into.
 ![Jan and Frank of ownCloud talking](https://cloud.indie.host/index.php/s/g5vgQXMbgwfzpVw/download)
 
 
-Peter: What is your favorite plugin or feature of ownCloud? What do you use the
+*Peter:* What is your favorite plugin or feature of ownCloud? What do you use the
 most?
 
 
-Jan: I personally use the mail app a lot, because I am working on it. It is an
+*Jan:* I personally use the mail app a lot, because I am working on it. It is an
 IMAP client. I just find it interesting, because often you hear: ah, mail is so
 complex, there are only few good mail apps. I am a bit disappointed with
 existing open source solutions, to be honest. And that's why I find it
@@ -296,7 +294,7 @@ the net. This app is highly integrated. Avatars are loaded from the contacts,
 and your own data. I use it a lot.
 
 
-Frank: Now I had some time to think about it, but... On the one hand you asked
+*Frank:* Now I had some time to think about it, but... On the one hand you asked
 what I use most often, but on the other hand what is my favorite feature. Mostly
 I use not very exciting things, like synchronise folders, create a publicly
 shared link, send it to someone and the recipient can then look at it. Which is
@@ -313,14 +311,14 @@ with all the attachments that you ever received. I think this is a very creative
 idea, I have never seen something like that before.
 
 
-Peter: I have to have a look at this... and the last question is: what would be
+*Peter:* I have to have a look at this... and the last question is: what would be
 the question that you would like to be asked from us? And your answer, please!
 
 
-Jan: Actually those were really good question already!
+*Jan:* Actually those were really good question already!
 
 
-Frank: One challenge, you asked about it, is: how can someone use ownCloud that
+*Frank:* One challenge, you asked about it, is: how can someone use ownCloud that
 is not able or does not want to run a server. The bright answer is: she has to
 go to a hoster, like you. I would really like to discuss with you more about
 this, how to make the experience smoother. Maybe you can get an account
@@ -330,10 +328,10 @@ a while, but aren't you able to create an account there directly from the
 desktop application...?
 
 
-Jan: Yes...
+*Jan:* Yes...
 
 
-Frank: Eactly! Something like this we could develop for example with you.
+*Frank:* Eactly! Something like this we could develop for example with you.
 Directly from the application or from the mobile phone, you download the
 ownCloud app from the app store on Anroid or iOS, click on "Register" and then
 appears: you can register at those 20 providers, maybe with prices and feature,
@@ -342,17 +340,17 @@ and the data is stored in the app. I would really like to brainstorm with you,
 what great thing we can build here.
 
 
-Peter: Sounds good!
+*Peter:* Sounds good!
 
 
-Jan: Another thing came to my mind, too! The question on how to participate at
+*Jan:* Another thing came to my mind, too! The question on how to participate at
 ownCloud.
 
 
-Frank: Haha, very good!
+*Frank:* Haha, very good!
 
 
-Jan: We are an open source project and I would say we have a very cool
+*Jan:* We are an open source project and I would say we have a very cool
 community. Our code is on github for collaboration. There is a "core" repository
 and the ones for all the apps, for example "calendar", "contacts", etc. We also
 have regular Meetups every month, for example in Munich and Berlin. And each
@@ -364,7 +362,7 @@ you want to develop, it is a platform and everybody can develop apps, whatever
 you want. Like such a small email attachment app, that is very useful in general.
 
 
-Peter: Thanks a lot for the interview!
+*Peter:* Thanks a lot for the interview!
 
 
 ## The full interview as video
