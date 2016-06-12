@@ -2,15 +2,15 @@
 
 ## Redécentraliser le web
 
-Je ne vais pour [réexpliquer](https://ihavesomethingtohi.de) [pourquoi](https://donottrack-doc.com/en/episodes/) [il](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) [est](http://jenairienacacher.fr/) [nécessaire](https://blogs.mediapart.fr/laurent-chemla/blog/060115/rien-cacher)/[indispensable](http://www.internetactu.net/2010/05/21/lettre-ouverte-a-ceux-qui-nont-rien-a-cacher/)/[urgent](http://www.april.org/si-vous-avez-quelque-chose-cacher-conference-de-numendil-passage-en-seine-en-2013) de [redécentraliser](http://redecentralize.org/) le web.
+Je ne vais pas [réexpliquer](https://ihavesomethingtohi.de) [pourquoi](https://donottrack-doc.com/en/episodes/) [il](https://www.ted.com/talks/glenn_greenwald_why_privacy_matters) [est](http://jenairienacacher.fr/) [nécessaire](https://blogs.mediapart.fr/laurent-chemla/blog/060115/rien-cacher)/[indispensable](http://www.internetactu.net/2010/05/21/lettre-ouverte-a-ceux-qui-nont-rien-a-cacher/)/[urgent](http://www.april.org/si-vous-avez-quelque-chose-cacher-conference-de-numendil-passage-en-seine-en-2013) de [redécentraliser](http://redecentralize.org/) le web.
 Plusieurs sites/personnes le font mieux que moi.
 Sur ce plan particulièrement, on peut se réjouir de [WordPress qui fait fonctionner 25%](http://venturebeat.com/2015/11/08/wordpress-now-powers-25-of-the-web/) du web!
 Mais la question qui me vient à l'esprit est qu'elle est sa croissance, comparée à  Wix, 1&1, Amazon S3, GitHub pages...?
 
-Ces sites se concentrent sur comment rendre super facile le processus de publier une page web.
-Comme vous le savez, chez IndieHosters, on se concentre sur aider les gens à décentraliser le web.
-On se rends compte que le gens veulent une manière facile de publier leur information sur le web.
-Seulement, lorsque les gens veulent faire une seule page pour juste mettre l'addresse de leur boutique par exemple,
+Ces sites se concentrent sur comment rendre simple le processus de publication d'une page web.
+Comme vous le savez, la mission des IndieHosters est d'aider les gens à décentraliser le web.
+Mais on se rend bien compte que le gens veulent une manière facile de publier leur information sur le web.
+Seulement, lorsque les gens veulent mettre en ligne une seule page avec l'addresse de leur boutique par exemple,
 il n'y a pas beaucoup de solutions faciles.
 
 ## Comment créer sa page web
@@ -22,8 +22,10 @@ Les seules logiciels libres que je connaisse qui puissent faire le travail sont:
  - [Superglue](http://superglue.it/)
  - peut-être WordPress avec certains plugins
 
-Le principale problème est que ces outils ne sont pas dédiés à la creation de page web, et donc pour une personne qui veut seulement créer une page pour son CV par exemple va être rapidement perdue.
+Le principal problème de ces outils est qu'ils ne sont pas dédiés à la creation de page web, et donc une personne qui veut seulement créer une page pour son CV par exemple va être rapidement perdue.
+
 Heureseument l'[équipe de Silex](https://www.ulule.com/silex-websitebuilder/) s'attèle à la tache et nous produit une belle application juste pour cela!
+
 Les principales différences avec les applications mentionnées plus haut:
 
  - Silex produit du HTML qui peut être hébergé partout (donc pas besoin d'hébergement compliqué)
@@ -53,7 +55,7 @@ Voila, on a besoin de votre support, donc si vous pouviez:
 
 Ce serait génial!
 
-## Valeure pour IndieHosters
+## Valeur pour IndieHosters
 
 Du côté de IndieHosters, c'est aussi une opportunité en or, cela permettrait d'étoffer nos [freedom bundle](https://indiehosters.net/page/home).
 En plus de:
